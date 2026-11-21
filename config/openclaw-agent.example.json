@@ -1,0 +1,37 @@
+{
+  "name": "NOWA Ambassador",
+  "description": "Ambassador of the owner's Planet in NOWA. Prepares citizen and Planet level-1 applications, Parade report reviews, introduction requests and Council positions. Never sends; the owner decides. Own folder only, no commands, no network, no other agents.",
+  "workspace": "~/.openclaw/workspace-ambassador",
+  "skills": ["nowa-ambassador"],
+  "tools": {
+    "allow": ["read", "write", "edit"],
+    "deny": [
+      "exec",
+      "process",
+      "apply_patch",
+      "browser",
+      "canvas",
+      "nodes",
+      "cron",
+      "gateway",
+      "message",
+      "memory_search",
+      "memory_get",
+      "sessions_spawn",
+      "sessions_send",
+      "sessions_list",
+      "sessions_history",
+      "sessions_search",
+      "session_status",
+      "group:automation",
+      "web_fetch",
+      "web_search"
+    ],
+    "fs": { "workspaceOnly": true },
+    "elevated": { "enabled": false },
+    "agentToAgent": { "send": [] }
+  },
+  "subagents": { "allowAgents": [] },
+  "memory": { "search": { "enabled": false } },
+  "heartbeat": { "every": "0m" }
+}
