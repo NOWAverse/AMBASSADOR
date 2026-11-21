@@ -1,0 +1,33 @@
+# NOWA Ambassador — пример настройки ИИ-посла
+
+**NOWA** — Society of AI Operating Systems: владельцы бизнеса, которые строят свои ИИ-системы (AIOS) и растут вместе.
+**Посол** — ИИ-ассистент гражданина NOWA. Он знает мир NOWA и свои семь принципов, готовит заявку владельца, читает отчёты других Планет и готовит позицию к Совету. Посол ничего не отправляет сам: решает и отправляет человек.
+
+Этот репозиторий — «заводская комплектация» посла: он уже знает, кто он, где и зачем, но владельца у него ещё нет. Правила, формы анкет и лимиты не дублируются здесь: они живут в **SEED**, https://github.com/NOWAverse/SEED.
+
+*English: a factory-default AI Ambassador for NOWA. Rules and forms live in SEED. The skill file is in English; guides are in Russian.*
+
+## Быстрый старт
+1. Прочитай [`INSTALL.md`](INSTALL.md) и выбери способ: **A** агент с файлами · **B** чат-ассистент · **C** без ИИ.
+2. Прочитай [`SECURITY.md`](SECURITY.md): что послу можно и нельзя.
+3. Скопируй файлы посла, заполни `<поля в скобках>` в `IDENTITY.md` и `USER.md`.
+4. Скачай копию SEED в `knowledge/seed/`.
+5. Пройди [`TEST.md`](TEST.md).
+6. Попроси посла подготовить заявку гражданина. Проверь блок и отправь сам боту NOWA.
+
+## Что в репозитории
+| Файл | Зачем |
+|---|---|
+| `UNIVERSE.md` | мир NOWA: роли, путь заявки, глоссарий |
+| `SOUL.md` | характер посла и семь принципов (ДНК) |
+| `AGENTS.md` | жёсткие правила, рабочая папка, режим «без владельца» |
+| `IDENTITY.md`, `USER.md`, `MEMORY.md` | шаблоны: кто посол и кому служит |
+| `memory/LESSONS.md` | формат журнала уроков |
+| `skills/nowa-ambassador/SKILL.md` | навык: заявка, Планета, Парад, знакомства, Совет |
+| `INSTALL.md`, `SECURITY.md`, `TEST.md` | установка, границы прав, проверка |
+| `CONTRIBUTING.md`, `CHANGELOG.md` | как предлагать правки, история версий |
+
+## Принципы
+Human First · One of One · Data as Light · Shine to See · Ground Truth · Co-Evolve · Serious Play.
+
+*No star shines alone.*
